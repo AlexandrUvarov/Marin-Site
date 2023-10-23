@@ -369,18 +369,35 @@ h1, h2, h3, h4, h5, h6 {
   padding-right: calc(50vw - 555px);
 }
 
+a {
+  outline: none;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .nav__list {
-  padding-left: 0;
-  margin: 0;
-}
-.nav__item {
   list-style: none;
+  display: flex;
+  gap: 15px;
+}
+.nav__link {
+  text-decoration: none;
+  color: #85AAAB;
+  font-size: 18px;
+  font-weight: 700;
+}
+.nav__link_active {
+  color: #6DE1E3;
+  border-bottom: 2px solid currentColor;
+}
+.nav__link:hover, .nav__link:focus {
+  color: #63cdcf;
 }
 
 /*# sourceMappingURL=style.css.map */
