@@ -369,6 +369,12 @@ h1, h2, h3, h4, h5, h6 {
   padding-right: calc(50vw - 555px);
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .nav__list {
   padding-left: 0;
   margin: 0;
