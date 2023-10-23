@@ -445,4 +445,9 @@ a {
   margin: 0 0 55px;
 }
 
+.services {
+  display: flex;
+  justify-content: space-around;
+}
+
 /*# sourceMappingURL=style.css.map */
