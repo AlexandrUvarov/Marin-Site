@@ -400,6 +400,8 @@ a {
   align-items: center;
   padding-top: 30px;
   padding-bottom: 30px;
+  position: absolute;
+  width: 100%;
 }
 
 .nav__list {
@@ -422,7 +424,7 @@ a {
 }
 
 .offer {
-  padding-top: 110px;
+  padding-top: 241px;
   padding-bottom: 160px;
   background-image: url(../img/photo-to-main-offer.jpg);
   background-position: center;
